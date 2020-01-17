@@ -4,12 +4,12 @@ public class Converter {
 /*
 * @Author: Mehdi Marzban
 * Baylee Cheung
-* Name of the third student
+* Saksham Nanda 
 *
 */
 	private double celsiusToFahrenheit(double C){
 // TODO: The third student will implement this method
-		return 0;
+		return ((C*(9/5))+32);
 	}
 	private double fahrenheitToCelsius(double F){
  // TODO: The second student will implement this method
