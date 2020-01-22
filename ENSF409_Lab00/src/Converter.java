@@ -1,4 +1,3 @@
-// this devel 
 public class Converter {
 //Your names go here:
 /*
@@ -9,7 +8,7 @@ public class Converter {
 */
 	private double celsiusToFahrenheit(double C){
 // TODO: The third student will implement this method
-		return ((C*(9/5))+32);
+		return ((C*9/5)+32);
 	}
 	private double fahrenheitToCelsius(double F){
  // TODO: The second student will implement this method
@@ -19,7 +18,14 @@ public class Converter {
 //TODO: The first student will implement this method.
 // Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
 // Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value
-		double x= celsiusToFahrenheit(180);
-		double y= fahrenheitToCelsius(250);
+		Converter x= new Converter();
+		
+		Converter y= new Converter();
+		double f = x.celsiusToFahrenheit(180);
+		
+		double c= y.fahrenheitToCelsius(250);
+		System.out.println("Temp in Fahrenheit = "+f);
+		System.out.println("Temp in Celsius = "+c);
 	}
+	
 }
